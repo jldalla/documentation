@@ -313,8 +313,10 @@ lunch alert form loads. Enter the following information on the form:
 
 .. seealso::
    - :doc:`lunch/user-accounts`
+   - :doc:`lunch/management`
 
 .. toctree::
    :titlesonly:
 
    lunch/user-accounts
+   lunch/management
