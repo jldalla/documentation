@@ -6,6 +6,13 @@ A scale can be connected to the :abbr:`IoT (Internet of Things)` box on an Odoo 
 easy steps. After setup, the *Point of Sale* app can be used to weigh products, which is helpful if
 their prices are calculated based on weight.
 
+.. important::
+   - In Europe, `certification is legally required <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.096.01.0107.01.ENG>`_
+     for using the scale as an integrated device. However, users can still utilize it without
+     integration.
+   - Alternatively, they have the option to acquire a certified scale with a printed certification
+     label, which can then be scanned into Odoo.
+
 Connection
 ==========
 
