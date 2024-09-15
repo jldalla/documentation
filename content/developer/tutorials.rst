@@ -1,9 +1,9 @@
 :show-content:
 :hide-page-toc:
 
-=========
-Tutorials
-=========
+==========
+Tutoriales
+==========
 
 .. toctree::
    tutorials/setup_guide
@@ -17,69 +17,70 @@ Tutorials
    tutorials/pdf_reports
 
 .. tip::
-   If you are new to Odoo development, we recommend starting with the :doc:`setup guide
+   Si eres nuevo en el desarrollo con Odoo, te recomendamos comenzar con la :doc:`guía de configuración
    <tutorials/setup_guide>`.
 
-Learn the server and web frameworks
-===================================
+Aprende los frameworks de servidor y web
+========================================
 
 .. cards::
 
-   .. card:: Server framework 101
+   .. card:: Framework de servidor 101
       :target: tutorials/server_framework_101
       :tag: Beginner
       :large:
 
-      This introductory tutorial is designed for complete beginners seeking to get started in Odoo
-      development. It covers the essential aspects and key concepts of the server framework. Learn
-      to create a simple module from scratch with step-by-step instructions and practical insights.
+      Este tutorial introductorio está diseñado para principiantes que buscan iniciarse en el desarrollo de Odoo. 
+      Abarca los aspectos esenciales y los conceptos clave del framework de servidor. 
+      Aprende a crear un módulo simple desde cero con instrucciones paso a paso y conocimientos prácticos.
 
-   .. card:: Discover the web framework
+   .. card:: Descubre el framework web
       :target: tutorials/discover_js_framework
       :tag: Beginner
 
-      This tutorial will teach the basics of the web framework and how to work with Owl components
-      by customizing the web client.
+      Este tutorial te enseñará los conceptos básicos del framework web y cómo trabajar con componentes Owl,
+      personalizando el cliente web.
 
-   .. card:: Master the web framework
+   .. card:: Domina el framework web
       :target: tutorials/master_odoo_web_framework
       :tag: Advanced
 
-      Become an expert in the web framework. A large variety of features are covered such as fields,
-      views, and even the kitten mode.
+      Conviértete en un experto en el framework web. Se cubren una gran variedad de funciones, 
+      como campos, vistas e incluso el modo gatito.
 
-Expand your knowledge on the server framework
-=============================================
+Amplíe sus conocimientos sobre el framework del servidor
+========================================================
 
 .. cards::
 
-   .. card:: Define module data
+   .. card:: Define el módulo de datos
       :target: tutorials/define_module_data
       :tag: Beginner
 
-      Define master and demo data for an Odoo module, leveraging the strengths of the CSV and XML
-      file formats to accommodate specific data requirements.
+      Define datos maestros y de demostración para un módulo de Odoo, aprovechando las ventajas 
+      de los formatos de archivos CSV y XML para adaptarse a requisitos de datos específicos.
 
-   .. card:: Restrict access to data
+   .. card:: Restringe el acceso a los datos
       :target: tutorials/restrict_data_access
       :tag: Beginner
 
-      Implement security measures to restrict access to sensitive data with the help of groups,
-      access rights, and record rules.
+      Implementa medidas de seguridad para restringir el acceso a datos confidenciales
+      con la ayuda de grupos, derechos de acceso y reglas de registro.
 
-   .. card:: Safeguard your code with unit tests
+   .. card:: Proteje tu código con pruebas unitarias
       :target: tutorials/unit_tests
       :tag: Beginner
 
-      Write effective unit tests in Python to ensure the resilience of your code and safeguard it
-      against unexpected behaviors and regressions.
+      Escribe pruebas unitarias efectivas en Python para garantizar la resiliencia de su código
+      y protegerlo contra comportamientos inesperados y regresiones.
 
-   .. card:: Reuse code with mixins
+   .. card:: Reutiliza código con mixins
       :target: tutorials/mixins
 
-      Create mixins to code features once and reuse them in multiple models.
+      Crea mixins para codificar características y reutilícelas en múltiples modelos.
 
-   .. card:: Build PDF reports
+   .. card:: Crea reportes en formato PDF
       :target: tutorials/pdf_reports
 
-      Use QWeb, Odoo's powerful templating engine, to create custom PDF reports for your documents.
+      Utiliza QWeb, el potente motor de plantillas de Odoo, 
+      para crear informes PDF personalizados para tus documentos.
